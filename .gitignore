@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Python settings and environment
+*.env
+*.DS_Store
+*.vscode/
+.vscode/
+
+# Pytest
+.cache/
+
+# Logs and database files
+*.log
+*.sqlite3
+*.db
+
+# TensorBoard
+runs/
+logs/
+
+# Model weights or large datasets
+*.pth
+*.h5
+*.weights
+
+# Test output
+output/
+test_output.csv
+
+# Pytorch Lightning cache
+lightning_logs/
+
+# Ignore large dataset files
+dataset/images/*
+dataset/train.csv
+dataset/test.csv
